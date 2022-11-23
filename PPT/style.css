@@ -1,0 +1,91 @@
+* {
+    font: 600 1.5rem monospace;
+} 
+
+#titulo {
+    color: black;
+    text-align: center;
+}
+
+#placar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#jogador,
+#computador {
+    position: relative;
+    flex-grow: 1;
+    border-radius: 0.3rem;
+    width: 200px;
+    padding: 20px;
+    color: black;
+}
+
+#jogador {
+    background-color:rgb(145, 253, 230);
+}
+
+#computador {
+    background-color:rgb(145, 253, 230);
+}
+
+#jNome,
+#cNome {
+    margin: 0;
+    padding: 0;
+}
+
+#jNome {
+    text-align: right;
+}
+
+#jPontos,
+#cPontos {
+    position: absolute;
+    top: 1rem;
+    font-size: 2rem;
+}
+
+#jPontos {
+    right: 20px;
+}
+
+ul#jEscolha,
+ul#cEscolha {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+ul#jEscolha li,
+ul#cEscolha li {
+    display: inline;
+}
+
+ul#jEscolha li a ,
+ul#cEscolha li a {
+    opacity: 0.2;
+}
+
+ul#jEscolha li a:hover,
+ul#jEscolha li a.selecionado,
+ul#cEscolha li a.selecionado {
+    opacity: 1;
+}
+
+ul#jEscolha li a img,
+ul#cEscolha li a img {
+    max-width: 80px;
+}
+
+#mensagem {
+    background-color: rgb(144, 255, 231);
+    font: 400 1.5rem monospace ;
+    border-radius: 0.3rem;
+    margin: 20px 0;
+    padding: 20px;
+    text-align: center;
+}
